@@ -1,0 +1,8 @@
+services:
+  main_dev_target:
+    image: basic-tre-docker-image3
+    container_name: basic-tre-docker3
+    build:
+      context: .
+      dockerfile: Dockerfile
+    platform: linux/x86_64
