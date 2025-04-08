@@ -33,7 +33,7 @@ Follow the on-screen instructions to input patient information and predict acuit
 
 ## Repo structure
 
-.
+'''
 ├── all-mpnet-base-v2/
 │
 ├── TRE_scripts/
@@ -61,7 +61,7 @@ Follow the on-screen instructions to input patient information and predict acuit
 ├── model_results/
 │
 └── README.md
-
+'''
 ---
 
 ## Notes
