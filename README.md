@@ -62,7 +62,6 @@ Follow the on-screen instructions to input patient information and predict acuit
 │
 └── README.md
 ```
-
 ---
 
 ## Notes
