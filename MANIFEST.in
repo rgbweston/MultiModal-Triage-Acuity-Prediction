@@ -1,0 +1,27 @@
+# Include important documentation files
+include README.md
+include LICENSE
+include pyproject.toml
+include setup.py
+
+# Include requirements files
+include docker/requirements.txt
+recursive-include docker *.txt
+
+# Include all Python files
+recursive-include multimodal_triage *.py
+
+# Exclude compiled Python files
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude .DS_Store
+
+# Exclude model files (too large and restricted by MIMIC data use agreement)
+global-exclude *.pth
+global-exclude *.pkl
+global-exclude embeddings.npy
+
+# Exclude history and cache
+prune .history
+prune .pytest_cache
+prune .mypy_cache
