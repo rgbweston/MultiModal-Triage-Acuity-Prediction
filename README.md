@@ -4,6 +4,8 @@
 
 This repository contains all code and resources for a project that predicts patient acuity levels (Emergency Severity Index, ESI 1–5) using both structured clinical data and free-text chief complaints. The model combines traditional clinical features with MPNet-generated text embeddings using a multimodal convolutional neural network.
 
+Project context and report at https://rgbweston.github.io/multimodal-triage-acuity-prediction.html
+
 ## Project Overview
 
 - **Objective:** Predict triage acuity levels to assist emergency department prioritisation.
